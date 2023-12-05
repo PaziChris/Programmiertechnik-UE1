@@ -1,15 +1,16 @@
-#Aufgabe 3: Farben von WiderstÃ¤nde
-#Erstellungsdatum: 04.12.2023
-#Name: Stamou Christos
-#Matrikelnummer: k12306763
-#Beschreibung: Die Funktion "farben_resistor(value)" nimmt eine Zahl
-#(value) als Eingabe und gibt eine Liste von drei Farben zurÃ¼ck, die den 
-#gegebenen Widerstandswert reprÃ¤sentieren. Diese Farben reprÃ¤sentieren 
-#die drei BÃ¤nder eines Widerstands, wobei die ersten beiden BÃ¤nder den 
-#Wert des Widerstands in Ohm darstellen und das dritte Band einen Faktor, um den Wert zu skalieren, 
-#reprÃ¤sentiert. Die Funktion "test()", fordert den Benutzer auf, einen 
-#Widerstandswert in Ohm anzugeben.
-
+""
+Aufgabe 3: Farben von WiderstÃ¤nde
+Erstellungsdatum: 04.12.2023
+Name: Stamou Christos
+Matrikelnummer: k12306763
+Beschreibung: Die Funktion "farben_resistor(value)" nimmt eine Zahl
+(value) als Eingabe und gibt eine Liste von drei Farben zurück, die den 
+gegebenen Widerstandswert reprÃ¤sentieren. Diese Farben repräsentieren 
+die drei Bänder eines Widerstands, wobei die ersten beiden Bänder den 
+Wert des Widerstands in Ohm darstellen und das dritte Band einen Faktor, um den Wert zu skalieren, 
+repräsentiert. Die Funktion "test()", fordert den Benutzer auf, einen 
+Widerstandswert in Ohm anzugeben.
+""
 def farben_resistor(value):
     color_codes = {
         0: "schwarz", 1: "braun", 2: "rot", 3: "orange",
