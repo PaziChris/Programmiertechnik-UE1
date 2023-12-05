@@ -1,4 +1,4 @@
-""
+"""
 Aufgabe 3: Farben von WiderstÃ¤nde
 Erstellungsdatum: 04.12.2023
 Name: Stamou Christos
@@ -10,7 +10,7 @@ die drei Bänder eines Widerstands, wobei die ersten beiden Bänder den
 Wert des Widerstands in Ohm darstellen und das dritte Band einen Faktor, um den Wert zu skalieren, 
 repräsentiert. Die Funktion "test()", fordert den Benutzer auf, einen 
 Widerstandswert in Ohm anzugeben.
-""
+"""
 def farben_resistor(value):
     color_codes = {
         0: "schwarz", 1: "braun", 2: "rot", 3: "orange",
